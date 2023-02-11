@@ -1,0 +1,20 @@
+#para2{
+    display: inline;
+}
+#ital{
+    display: inline;
+}
+span{
+    display: block;
+}
+#mylist{
+    list-style: square;
+}
+#mytable, th, td{
+    border: 2px solid;
+}
+#mytable{
+    border-collapse:separate;
+    empty-cells: hide;
+    border-spacing: 10px 10px;
+}

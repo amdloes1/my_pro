@@ -1,0 +1,115 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <Title> Assignment 1 HTML</Title>
+    
+</head>
+<body>
+<h1 style="color:orange;"> HTML</h1>
+<style>
+    #first_heading{
+        color:rgb(34, 185, 94);
+    }
+    #second_heading{
+        color: burlywood;
+    }
+    #first_para{
+        color:red;
+        font-size: 40px;
+    }
+    #second_para{
+        color: rgb(28, 97, 65);
+        font-weight: 600;
+    }
+    body{
+        background-color:cyan;
+    }
+</style>
+    
+    <!--one paragraph under the Title of HTML-->
+    <p style="color:coral">The Starship prototype descended under active aerodynamic control, accomplished by independent movement of two <b>forward</b> and two aft flaps on the vehicle. All four flaps were actuated by an onboard flight computer to control Starship's attitude during flight and enabled precise landing at the inteded location. <strike>SN15's</strike>   SN15's Raptor engines reignited as the vehicle performed the landing flip maneuver immediately before touching down for a nominal landing on the pad. </p>
+
+    <hr>
+    <i style="color:blue"> Italian content for display</i>
+    <hr>
+    <table>
+        <!-- A table to people's name and last name and Email address-->
+     <caption>People</caption>
+     <thead>
+         <tr>
+             <th id="first_heading">First Name</th>
+             <th id="first_heading"> Last Name</th>
+             <th id="first_heading"> Email Address</th>
+         </tr>
+     </thead>
+     <tr>
+         <td id="second_heading"> abc</td>
+         <td id="second_heading"> xyz</td>
+         <td id="second_heading"> abc@gmail.com </td>
+     </tr>
+     <tr>
+            <td id="second_heading"> qwe</td>
+            <td id="second_heading"> asd</td>
+            <td id="second_heading"> qwe@mail.com</td>
+    </tr>  
+    </table>
+    <hr>
+    <form>
+        <label for ="fname">First Name:</label><br>
+        <input type="text" id="fname" name="First_Name"><br>
+        <label for="user_Password"> Password</label><br>
+        <input type="password" id="user-password" name="user password"><br>
+        <labe for="Space">Space Organization:</labe><br>
+        <!-- I put options for user choice-->
+        <select id="first_heading"  id="Space" id="space_oragnization" name="Space" value="Space organization">
+            <option value="Spacex"> Space X</option>
+            <option value="Tesla"> Tesla</option>
+            <option value="Neuralink"> Neuralink</option>
+        </select><br>
+        <!-- User can choose a date by calender-->
+        <labe for="birthdate">Your birth date:</labe><br>
+        <input type="date" id="birthdate" name="birthdate"><br>
+        <label for="Ps5">Play Station 5</label>
+        <input type="checkbox" id="Ps5" name="Ps5" value="Ps5">
+        <br>
+        <label for="XboxX">Xbox X</label>
+        <input type="checkbox" id="XboxX" name="XboxX" value="XBOXX">
+        <br>
+        <labe  for="user_file">Your File: </labe>
+        <input type="file" id="user_file" name="user_file" multiple ><br>
+        <input id="first_heading"type="submit" id="submit_form" name="submit_form">
+     </form>
+
+     <hr>
+     <img src="Code-Examples-Image.png" width="100" height="100" >
+     <hr>
+     <!-- a list with 5 numbers and 7 under-number-List. -->
+     <ol>
+         <li> DSA</li>
+         <ul>
+            <li>Arry</li>
+            <li>Linked List</li>
+            <li>stack</li> 
+            <li>Queue</li>
+        </ul>
+        <li> Web Technologies</li>
+        <ul>
+            <li> HTML</li>
+            <li> CSS</li>
+            <li> Java Script</li>
+
+        </ul>
+        <li> Aptitude</li>
+        <li> Gate</li>
+        <li> Placement</li>
+     </ol>
+     <hr>
+     <a>
+         <!-- An Email address for click and direct to the Email sending.-->
+         Contact at
+         <a href="xyz@gmail.com">xyz@gmail.com</a>
+     </a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(130, 140, 147);
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1, h2{
+    padding: 10px 30px;
+    font-weight: 800;
+    color:aqua;
+    text-align: center;
+    border-style: double;
+    margin-right: 150px;
+}
+
+div {
+    width: 1000px;
+    border: 10px solid aqua;
+    padding: 50px;
+    margin: 20px;
+
+  }
